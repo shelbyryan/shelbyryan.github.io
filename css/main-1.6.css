@@ -72,6 +72,11 @@ fieldset {
     padding: 0;
 }
 
+.giftreg {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
 textarea {
     resize: vertical;
 }
