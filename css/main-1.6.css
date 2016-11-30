@@ -662,6 +662,16 @@ section h2 {
     *zoom: 1;
 }
 
+.center {
+    text-align: center;
+}
+
+button {
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+}
+
 /* ==========================================================================
    Print styles
    ========================================================================== */
