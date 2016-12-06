@@ -670,6 +670,7 @@ button {
     align-items: center;
     margin: 0 auto;
     display: block;
+    border: 1px solid white;
 }
 
 /* ==========================================================================
