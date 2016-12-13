@@ -289,6 +289,7 @@ html {
 
 body {
     font-family: "Yantramanav", "HelveticaNeueLTStdRegular","HelveticaNeue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 1.5px;
     color: #fff;
     text-align: center;
 
@@ -348,7 +349,7 @@ section h1 {
 }
 
 section h2 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     line-height: 120%;
     padding: 0 0px;
     font-family:"futura_ltbook",Arial,sans-serif;
