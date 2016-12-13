@@ -3,6 +3,11 @@ h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
     font-weight: normal;
 }
 
+/*
+font-family: 'Yantramanav', sans-serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+*/
+
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
@@ -64,6 +69,12 @@ hr {
 
 img {
     vertical-align: middle;
+}
+
+.theinn {
+    height: 60px;
+    width: 120px;
+    margin-top: -20px;
 }
 
 fieldset {
@@ -221,6 +232,7 @@ nav ul {
     font-weight: normal;
     margin: 0;
     padding: 0;
+    letter-spacing: 1.5px;
 }
 
 nav a {
@@ -276,7 +288,7 @@ html {
 }
 
 body {
-    font-family: "futura_ltbook", "HelveticaNeueLTStdRegular","HelveticaNeue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "Yantramanav", "HelveticaNeueLTStdRegular","HelveticaNeue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     color: #fff;
     text-align: center;
 
@@ -285,9 +297,9 @@ body {
 #bg-image {
     position: fixed; 
     top: -50%; 
-    left: -50%; 
-    width: 200%; 
-    height: 200%;
+    left: -60%; 
+    width: 225%; 
+    height: 225%;
 }
 #bg-image img {
     position: relative; 
@@ -329,15 +341,18 @@ section {
 }
 
 section h1 {
-
     font-family: "EdwardianScrAltITCTT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 2.6em;
+    letter-spacing: 1px;
 
 }
+
 section h2 {
-    font-size: 1.1em;
+    font-size: 1.3em;
     line-height: 120%;
     padding: 0 0px;
+    font-family:"futura_ltbook",Arial,sans-serif;
+    letter-spacing: 1px
 }
 
 .column {
@@ -424,7 +439,7 @@ section h2 {
         padding: 15px 1%;
         margin-bottom: 0;
         display:inline-block;
-        font-size: 60%;
+        font-size: 50%;
         white-space: nowrap;
 
         -moz-font-smoothing: antialiased;
@@ -476,7 +491,7 @@ section h2 {
     }
 
     .oldie nav a {
-        margin: 0 0.7%;
+        margin: 0 0.5%;
     }
 }
 
@@ -596,8 +611,8 @@ section h2 {
         float: left;
         width: 100%;
     }
-
-  
+    
+   
 }
 
 /* ==========================================================================
@@ -855,7 +870,7 @@ button {
 img.theinn  {
 
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 div.bp h2 {
