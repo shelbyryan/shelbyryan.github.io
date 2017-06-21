@@ -84,11 +84,11 @@ fieldset {
 }
 
 .giftreg {
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
-    margin: 2px 2px 2px 2px;
+    padding-top: 2px;
+    padding-bottom:10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 5px 5px 5px 5px;
     float: left;    
 }
 
