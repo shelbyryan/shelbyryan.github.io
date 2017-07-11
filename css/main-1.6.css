@@ -84,12 +84,17 @@ fieldset {
 }
 
 .giftreg {
+    display: block;
     padding-top: 2px;
     padding-bottom:10px;
-    padding-left: 8px;
+    padding-left: 10px;
     padding-right: 8px;
-    margin: 5px 5px 5px 5px;
-    float: left;    
+    margin: 0 2% 0 2%;
+    float: left;
+}
+
+.target {
+    padding-bottom: 20px;
 }
 
 textarea {
@@ -117,6 +122,17 @@ body {
     position: relative;
     width: 90%;
     margin: 0 5%;
+}
+
+
+/* =============================================================================
+   COUNTDOWN
+   ========================================================================== */
+.countdown {
+    display: block;
+    margin: 20px auto 20px auto;
+    font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 1em;
 }
 
 
@@ -362,7 +378,7 @@ section h2 {
 
 section h3 {
     font-family: "EdwardianScrAltITCTT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 2.25em;
+    font-size: 2.75em;
     letter-spacing: 1px;
 }
 
